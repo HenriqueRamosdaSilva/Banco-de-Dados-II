@@ -6,13 +6,13 @@ T1 leu 1000
 T2 comitou +500
 T1 leu novamente 1500
 
-1)	Transação executa uma consulta que retorna um conjunto de linhas. Outra transação insere ou deleta linhas que correspondem à consulta, causando inconsistência
+2)	Transação executa uma consulta que retorna um conjunto de linhas. Outra transação insere ou deleta linhas que correspondem à consulta, causando inconsistência
 O que T1 observa na segunda leitura? Qual fenômeno está ocorrendo?
 
 T1 na segunda leitura observa que existe uma linha a mais ou a menos que na anterior, pois T2 fez uma alteração .
 Isso e chamado “Phantom Read (Leitura Fantasma)”
 
-2)	Duas transações leem o mesmo dado e escrevem simultaneamente, fazendo com que uma atualização sobrescreva a outra sem perceber
+3)	Duas transações leem o mesmo dado e escrevem simultaneamente, fazendo com que uma atualização sobrescreva a outra sem perceber
 Qual é o valor final esperado no estoque? O que aconteceu com a atualização de uma das transações?
 O valor esperado e 35 mas no final vai ficar 45 pois a alteração de T1 não vai acontecer pois T2 irá sobrescrever a T1
 Exemplo 
@@ -23,7 +23,8 @@ T2 50-5 =45
 T1 Escreve Resultado 40
 T2 Escreve Resultado 45
 No final fica o 45 não o esperado de 35.
-3)	Duas transações verificam uma condição e decidem atualizar dados de forma consistente, mas como cada uma não vê a mudança da outra, o resultado final viola uma regra de integridade.
+
+4)	Duas transações verificam uma condição e decidem atualizar dados de forma consistente, mas como cada uma não vê a mudança da outra, o resultado final viola uma regra de integridade.
 Regra: Pelo menos um funcionário deve estar disponível para atender.
 Qual regra de integridade foi violada? Que fenômeno ocorreu?
 A regra violada foi pelo menos um funcionário deve estar disponível para atender.
