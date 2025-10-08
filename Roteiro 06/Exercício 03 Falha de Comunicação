@@ -1,0 +1,1 @@
+Como o terminal psql iniciou uma transação e a conexão foi cortada antes do commit, com isso o banco não registra o commit e realiza um rollback automático.
