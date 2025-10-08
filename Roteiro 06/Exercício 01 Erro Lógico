@@ -1,0 +1,1 @@
+A atomicidade garante que seja tudo ou nada ou seja ela garante que todas as operações dentro de uma transação ocorram ou nenhuma delas sera aplicadas.
