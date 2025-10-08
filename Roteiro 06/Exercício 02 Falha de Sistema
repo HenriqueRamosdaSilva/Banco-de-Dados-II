@@ -1,0 +1,1 @@
+O undo é um mecanismo que quando o banco reinicia, verifica todos os waLS e vê se tem algum sem commit, se tiver ele executa automaticamente o rollback.
