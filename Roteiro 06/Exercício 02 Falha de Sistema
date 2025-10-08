@@ -1,0 +1,4 @@
+Faça uma transação sem commit.
+○ Derrube o PostgreSQL abruptamente.
+○ Reinicie e verifique o estado da tabela.
+○ Explique como o Undo entrou em ação.
