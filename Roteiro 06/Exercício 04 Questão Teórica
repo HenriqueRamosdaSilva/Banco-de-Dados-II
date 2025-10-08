@@ -1,0 +1,3 @@
+A falha de sistema é quando o sistema para de funcionar mas o disco fica intacto, aí o banco reinicia e faz um undo.
+Já a falha de mídia é quando há dano no HD ou SSD ou o que quer que esteja armazenando os dados, fazendo com que os dados e logs sejam perdidos
+A falha de mídia é a mais crítica, pois com ela tem a perda dos dados armazenados e sem backup, isso pode ser permanente. Já com a falha de sistema, tem o undo.
