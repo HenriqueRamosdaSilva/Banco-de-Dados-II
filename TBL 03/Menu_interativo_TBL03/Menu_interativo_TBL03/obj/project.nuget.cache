@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "sfu9The54RM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alunolab\\Documents\\BD2\\TBL 03\\Menu_interativo_TBL03\\Menu_interativo_TBL03\\Menu_interativo_TBL03.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alunolab\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\alunolab\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\alunolab\\.nuget\\packages\\npgsql\\9.0.4\\npgsql.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
